@@ -1,0 +1,4 @@
+.GuessPegs {
+    display:flex;
+    flex-direction: row;
+}
