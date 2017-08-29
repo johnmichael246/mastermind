@@ -13,8 +13,10 @@ const GuessPeg = (props) => {
   };
 
   return (
-    <div style={style}
-    onClick={props.placeColorSelection} />
+    <div
+      onClick={props.currentGuess ? props.handlePegClick : null}
+      style={style}
+    />
   );
 }
 
